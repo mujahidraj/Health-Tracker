@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mujahid Health Track</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+  <div class="branding">
+    <div class="header-left">
+      <img src="Raj-logo.webp" alt="Company Logo" class="logo">
+      <h1 class="company-name">MUJAHID HEALTH TRACK</h1>
+    </div>
+    <div class="header-right">
+      <button id="themeToggle">🌙 Dark Mode</button>
+      <button id="languageToggle">🌐 বাংলা</button>
+    </div>
+  </div>
+
+
+  <header>
+    <div class="header-left">
+      <button id="menuToggle">☰ Menu</button>
+    </div>
+  </header>
+
+
+  <div id="sidebar">
+    <button id="closeSidebar">×</button>
+    <ul>
+      <li><a href="#home-description">Home</a></li>
+      <li><a href="#what-is-bmi">Body mass index (BMI)</a></li>
+      <li><a href="#what-is-tdee">Total Daily Energy Expenditure (TDEE)</a></li>
+      <li><a href="#what-is-whr">Waist-to-Hip Ratio (WHR)</a></li>
+      <li><a href="#what-is-bp">Blood Pressure (BP)</a></li>
+      <li><a href="#what-is-phq9">Patient Health Questionnaire-9 (PHQ-9)</a></li>
+      <li><a href="#what-is-due-date">Due Date</a></li>
+      <li><a href="#what-is-eag">Estimated average glucose (eAG)</a></li>
+      <li><a href="#what-is-ovulation">Ovulation Prediction</a></li>
+    </ul>
+  </div>
+
+  <main>
+ 
+    <section id="home-description" class="active">
+      <h1>Welcome to Mujahid Health Track</h1>
+      <p>
+        Maintaining a healthy lifestyle is crucial for overall well-being. Our platform provides tools and resources to help you track and manage your health effectively. From calculating your Body Mass Index (BMI) to estimating your Total Daily Energy Expenditure (TDEE), we’ve got you covered. Explore our calculators and learn why maintaining key health metrics is essential for a healthier life.
+      </p>
+      <h2>Why Health Tracking is Important</h2>
+      <p>
+        Regular health tracking helps you understand your body better, identify potential risks, and take proactive steps to improve your health. Whether it’s managing your weight, monitoring your blood pressure, or understanding your mental health, our tools are designed to empower you with knowledge and actionable insights.
+      </p>
+      <h2>Health Tips</h2>
+      <ul>
+        <li><strong>Eat a Balanced Diet:</strong> Include fruits, vegetables, whole grains, and lean proteins in your diet.</li>
+        <li><strong>Exercise Regularly:</strong> Aim for at least 150 minutes of moderate exercise per week.</li>
+        <li><strong>Monitor Key Metrics:</strong> Regularly check your BMI, BP, and other health indicators.</li>
+        <li><strong>Stay Hydrated:</strong> Drink plenty of water throughout the day.</li>
+        <li><strong>Get Enough Sleep:</strong> Aim for 7-9 hours of sleep every night.</li>
+      </ul>
+    </section>
+
+ 
+    <section id="what-is-bmi">
+      <h1>What is BMI?</h1>
+      <p>Body Mass Index (BMI) is a measure of body fat based on your weight in relation to your height. It helps assess whether you are underweight, normal weight, overweight, or obese. BMI is calculated by dividing your weight in kilograms by the square of your height in meters.</p>
+      <p><strong>Why it’s important:</strong> Maintaining a healthy BMI reduces the risk of chronic diseases like diabetes, heart disease, and stroke. A high BMI can indicate excessive body fat, while a low BMI may suggest insufficient body fat.</p>
+      <div class="chart">
+        <img src="BMI.webp" alt="Due Date Chart">
+        <p>Body Mass Index Chart</p>
+      </div>
+      <p><strong>Healthy Range:</strong> 18.5–24.9</p>
+      <h3>Health Risks of High BMI</h3>
+      <ul>
+        <li><strong>Obesity:</strong> Increases the risk of type 2 diabetes, hypertension, and cardiovascular diseases.</li>
+        <li><strong>Joint Problems:</strong> Excess weight puts pressure on joints, leading to arthritis.</li>
+        <li><strong>Sleep Apnea:</strong> Obesity is a major risk factor for sleep-related breathing disorders.</li>
+      </ul>
+      <h3>How to Maintain a Healthy BMI</h3>
+      <ul>
+        <li><strong>Balanced Diet:</strong> Focus on whole foods, fruits, vegetables, and lean proteins.</li>
+        <li><strong>Regular Exercise:</strong> Engage in at least 30 minutes of moderate exercise daily.</li>
+        <li><strong>Monitor Weight:</strong> Regularly check your weight and adjust your lifestyle accordingly.</li>
+      </ul>
+      <button id="bmiCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="BMI/calculator.html">BMI Calculator</a></button>
+    </section>
+
+    <section id="what-is-tdee">
+      <h1>What is TDEE?</h1>
+      <p>Total Daily Energy Expenditure (TDEE) is the total number of calories you burn in a day, including physical activity and bodily functions. It is calculated by adding your Basal Metabolic Rate (BMR) to the calories burned through physical activity and digestion.</p>
+      <p><strong>Why it’s important:</strong> Knowing your TDEE helps you manage your calorie intake for weight loss, maintenance, or gain. It provides a personalized estimate of how many calories you need to consume daily to achieve your health goals.</p>
+      <div class="chart">
+        <img src="TDEE.png" alt="Due Date Chart">
+        <p>TDEE Chart</p>
+      </div>
+      <h3>Components of TDEE</h3>
+      <ul>
+        <li><strong>Basal Metabolic Rate (BMR):</strong> Calories burned at rest.</li>
+        <li><strong>Physical Activity:</strong> Calories burned through exercise and daily activities.</li>
+        <li><strong>Thermic Effect of Food (TEF):</strong> Calories burned during digestion.</li>
+      </ul>
+      <h3>How to Use TDEE</h3>
+      <ul>
+        <li><strong>Weight Loss:</strong> Consume fewer calories than your TDEE.</li>
+        <li><strong>Weight Maintenance:</strong> Match your calorie intake to your TDEE.</li>
+        <li><strong>Weight Gain:</strong> Consume more calories than your TDEE.</li>
+      </ul>
+      <button id="tdeeCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="TDEE/TDEE.html">TDEE Calculator</a></button>
+    </section>
+
+    <section id="what-is-whr">
+      <h1>What is WHR?</h1>
+      <p>Waist-to-Hip Ratio (WHR) is a measure of fat distribution in your body. It is calculated by dividing your waist circumference by your hip circumference. A high WHR indicates more fat around the waist, which is associated with higher health risks.</p>
+      <p><strong>Why it’s important:</strong> A high WHR indicates a higher risk of heart disease and diabetes. It is a better indicator of health risks than BMI alone, as it considers fat distribution.</p>
+      <div class="chart">
+        <img src="WHR.webp" alt="Due Date Chart">
+        <p>WHR Chart</p>
+      </div>
+      <p><strong>Healthy Range:</strong> Men: ≤ 0.9, Women: ≤ 0.85</p>
+      <h3>Health Risks of High WHR</h3>
+      <ul>
+        <li><strong>Cardiovascular Disease:</strong> Excess abdominal fat increases the risk of heart disease.</li>
+        <li><strong>Type 2 Diabetes:</strong> High WHR is linked to insulin resistance.</li>
+        <li><strong>Metabolic Syndrome:</strong> A cluster of conditions that increase the risk of heart disease and stroke.</li>
+      </ul>
+      <h3>How to Improve WHR</h3>
+      <ul>
+        <li><strong>Exercise:</strong> Focus on cardio and strength training to reduce abdominal fat.</li>
+        <li><strong>Healthy Diet:</strong> Avoid processed foods and sugary drinks.</li>
+        <li><strong>Stress Management:</strong> High stress levels can lead to fat accumulation in the abdominal area.</li>
+      </ul>
+      <button id="whrCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="WHR/WHR.html">WHR Calculator</a></button>
+    </section>
+
+    <section id="what-is-bp">
+      <h1>What is BP?</h1>
+      <p>Blood Pressure (BP) measures the force of blood against the walls of your arteries. It includes systolic (top number) and diastolic (bottom number) pressure. Systolic pressure measures the pressure in your arteries when your heart beats, while diastolic pressure measures the pressure when your heart is at rest.</p>
+      <p><strong>Why it’s important:</strong> High BP can lead to heart disease, stroke, and kidney problems. It is often called the "silent killer" because it has no symptoms but can cause severe health issues.</p>
+      <div class="chart">
+        <img src="BP.jpg" alt="Due Date Chart">
+        <p>Blood Pressure Check List</p>
+      </div>
+      <p><strong>Healthy Range:</strong> 120/80 mmHg</p>
+      <h3>Health Risks of High BP</h3>
+      <ul>
+        <li><strong>Heart Attack:</strong> High BP damages arteries, leading to heart disease.</li>
+        <li><strong>Stroke:</strong> High BP can cause blood vessels in the brain to burst or clog.</li>
+        <li><strong>Kidney Damage:</strong> High BP can damage blood vessels in the kidneys.</li>
+      </ul>
+      <h3>How to Maintain Healthy BP</h3>
+      <ul>
+        <li><strong>Reduce Salt Intake:</strong> Limit sodium to less than 2,300 mg per day.</li>
+        <li><strong>Exercise Regularly:</strong> Aim for at least 30 minutes of moderate exercise daily.</li>
+        <li><strong>Manage Stress:</strong> Practice relaxation techniques like meditation or yoga.</li>
+      </ul>
+      <button id="bpCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="BP/BP.html">BP Calculator</a></button>
+    </section>
+
+    <section id="what-is-phq9">
+      <h1>What is PHQ-9?</h1>
+      <p>The PHQ-9 is a self-administered questionnaire used to measure depression severity. It consists of nine questions that assess the frequency of depressive symptoms over the past two weeks. Each question is scored from 0 to 3, with a total score ranging from 0 to 27.</p>
+      <p><strong>Why it’s important:</strong> It helps identify depression and guides treatment decisions. A higher score indicates more severe depression, and it is widely used in clinical settings to monitor treatment progress.</p>
+      <div class="chart">
+        <img src="PHQ.png" alt="Due Date Chart">
+        <p>PHQ-9 Scoring Chart</p>
+      </div>
+      <h3>PHQ-9 Scoring</h3>
+      <ul>
+        <li><strong>0-4:</strong> Minimal or no depression.</li>
+        <li><strong>5-9:</strong> Mild depression.</li>
+        <li><strong>10-14:</strong> Moderate depression.</li>
+        <li><strong>15-19:</strong> Moderately severe depression.</li>
+        <li><strong>20-27:</strong> Severe depression.</li>
+      </ul>
+      <h3>How to Manage Depression</h3>
+      <ul>
+        <li><strong>Seek Professional Help:</strong> Consult a mental health professional for therapy or medication.</li>
+        <li><strong>Exercise:</strong> Physical activity can improve mood and reduce symptoms of depression.</li>
+        <li><strong>Social Support:</strong> Stay connected with friends and family.</li>
+      </ul>
+      <button id="phq9CalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="Deepression/DP.html">Depression Scale</a></button>
+    </section>
+
+    <section id="what-is-due-date">
+      <h1>What is Due Date?</h1>
+      <p>The Due Date Calculator estimates the expected birth date of a baby based on the last menstrual period (LMP). It uses Naegle’s Rule, which adds 280 days (40 weeks) to the first day of the last menstrual period. Ultrasound measurements can provide a more accurate due date.</p>
+      <p><strong>Why it’s important:</strong> It helps track pregnancy progress and plan for childbirth. Knowing the due date allows healthcare providers to monitor fetal development and ensure a healthy pregnancy.</p>
+      <div class="chart">
+        <img src="DD.png" alt="Due Date Chart">
+        <p>Due Date Range Chart</p>
+      </div>
+      <h3>How to Calculate Due Date</h3>
+      <ul>
+        <li><strong>Naegle’s Rule:</strong> Add 280 days (40 weeks) to the first day of your last menstrual period.</li>
+        <li><strong>Ultrasound:</strong> A more accurate method to determine the due date.</li>
+      </ul>
+      <h3>Pregnancy Tips</h3>
+      <ul>
+        <li><strong>Regular Checkups:</strong> Visit your doctor for prenatal care.</li>
+        <li><strong>Healthy Diet:</strong> Eat a balanced diet rich in vitamins and minerals.</li>
+        <li><strong>Stay Active:</strong> Engage in light exercises like walking or prenatal yoga.</li>
+      </ul>
+      <button id="dueDateCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="Due_date/DD.html">Due Date Calculator</a></button>
+    </section>
+
+    <section id="what-is-eag">
+      <h1>What is eAG?</h1>
+      <p>Estimated Average Glucose (eAG) converts HbA1c levels to average blood glucose levels. It provides a more intuitive understanding of blood sugar control over time. The formula for calculating eAG is: eAG (mg/dL) = 28.7 × HbA1c − 46.7.</p>
+      <p><strong>Why it’s important:</strong> It helps diabetics understand their blood sugar control over time. HbA1c measures average blood glucose levels over the past 2-3 months, and eAG translates this into a more familiar unit (mg/dL).</p>
+      <div class="chart">
+        <img src="eAG.png" alt="Due Date Chart">
+        <p>eAG Chart</p>
+      </div>
+      <h3>How to Calculate eAG</h3>
+      <ul>
+        <li><strong>Formula:</strong> eAG (mg/dL) = 28.7 × HbA1c − 46.7</li>
+      </ul>
+      <h3>How to Manage Blood Sugar</h3>
+      <ul>
+        <li><strong>Monitor Regularly:</strong> Check blood sugar levels as recommended by your doctor.</li>
+        <li><strong>Healthy Diet:</strong> Focus on low-glycemic foods like vegetables, whole grains, and lean proteins.</li>
+        <li><strong>Exercise:</strong> Regular physical activity helps regulate blood sugar levels.</li>
+      </ul>
+      <button id="eagCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="diabetes/DB.html">Average Glucose</a></button>
+    </section>
+
+    <section id="what-is-ovulation">
+      <h1>What is Ovulation?</h1>
+      <p>The Ovulation Calculator predicts fertile windows and ovulation dates based on your menstrual cycle. Ovulation is the process in which a mature egg is released from the ovary, making it the most fertile time in a woman’s cycle.</p>
+      <p><strong>Why it’s important:</strong> It helps with family planning and understanding fertility. Knowing your ovulation dates can increase the chances of conception or help avoid pregnancy.</p>
+      <div class="chart">
+        <img src="ov.jpg" alt="Due Date Chart">
+        <p>Ovaluation Chart</p>
+      </div>
+      <h3>How to Track Ovulation</h3>
+      <ul>
+        <li><strong>Calendar Method:</strong> Track your menstrual cycle to predict ovulation.</li>
+        <li><strong>Ovulation Kits:</strong> Use over-the-counter kits to detect hormonal changes.</li>
+        <li><strong>Basal Body Temperature:</strong> Monitor your body temperature to identify ovulation.</li>
+      </ul>
+      <h3>Fertility Tips</h3>
+      <ul>
+        <li><strong>Healthy Lifestyle:</strong> Maintain a balanced diet and exercise regularly.</li>
+        <li><strong>Avoid Stress:</strong> High stress levels can affect fertility.</li>
+        <li><strong>Consult a Specialist:</strong> Seek medical advice if you have trouble conceiving.</li>
+      </ul>
+      <button id="ovulationCalculatorBtn" class="calculator-btn"><a style="color: white; text-decoration: solid;" href="Ovaluation/OC.html">Ovulation Calculator</a></button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h2>About Us</h2>
+        <p>Mujahid Health Track is dedicated to helping you maintain a healthy lifestyle through accurate health tracking and tips.</p>
+      </div>
+      <div class="footer-section">
+        <h2>Contact</h2>
+        <p>Email: support@mujahidhealthtrack.com</p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+      <div class="footer-section">
+        <h2>References</h2>
+        <ul>
+          <li><a href="https://www.who.int/">World Health Organization (WHO)</a></li>
+          <li><a href="https://www.cdc.gov/">Centers for Disease Control and Prevention (CDC)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Mujahid Health Track. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
