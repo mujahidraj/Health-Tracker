@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Due Date Calculator</title>
+  <link rel="stylesheet" href="DD.css">
+</head>
+
+  <header>
+    <div class="header-left">
+      <h1>Due Date Calculator</h1>
+    </div>
+    <div class="header-right">
+      <button id="themeToggle">🌙 Dark Mode</button>
+      <button id="languageToggle">🌐 বাংলা</button>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+  
+      <div class="calculator">
+        <form id="dueDateForm">
+          <label for="lmp">Last Menstrual Period (LMP):</label>
+          <input type="date" id="lmp" required>
+
+          <button type="submit">Calculate Due Date</button>
+        </form>
+      </div>
+
+    
+      <div class="result">
+        <h2>Your Due Date</h2>
+        <div class="result-content">
+          <p>Expected Due Date: <span id="dueDate">-</span></p>
+          <div id="healthTips">
+            <h3>Pregnancy Tips</h3>
+            <p id="tips">Enter your LMP to get pregnancy tips.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="DD.js"></script>
+</body>
+</html>
