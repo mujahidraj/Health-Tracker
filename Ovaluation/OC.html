@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Period Calculator</title>
+  <link rel="stylesheet" href="OC.css">
+</head>
+<body class="light-mode">
+
+  <header>
+    <div class="header-left">
+      <h1>Period Calculator</h1>
+    </div>
+    <div class="header-right">
+      <button id="themeToggle">🌙 Dark Mode</button>
+      <button id="languageToggle">🌐 বাংলা</button>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+  
+      <div class="calculator">
+        <form id="periodForm">
+          <label for="lmp">Last Menstrual Period (LMP):</label>
+          <input type="date" id="lmp" required>
+
+          <label for="cycleLength">Average Cycle Length (Days):</label>
+          <input type="number" id="cycleLength" required min="21" max="45" placeholder="Enter cycle length">
+
+          <button type="submit">Calculate</button>
+        </form>
+      </div>
+
+
+      <div class="result">
+        <h2>Your Results</h2>
+        <div class="result-content">
+          <p>Next Menstrual Date: <span id="nextPeriod">-</span></p>
+          <p>Fertile Window: <span id="fertileWindow">-</span></p>
+          <p>Approximate Ovulation Date: <span id="ovulationDate">-</span></p>
+          <p>Pregnancy Test Day: <span id="pregnancyTestDay">-</span></p>
+          <p>Estimated Due Date: <span id="dueDate">-</span></p>
+          <div id="healthTips">
+            <h3>Health Tips</h3>
+            <p id="tips">Enter your details to get health tips.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="OC.js"></script>
+</body>
+</html>
