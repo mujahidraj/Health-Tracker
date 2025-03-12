@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Pressure (BP) Calculator</title>
+  <link rel="stylesheet" href="BP.css">
+</head>
+<body class="light-mode">
+
+  <header>
+    <div class="header-left">
+      <h1>BP Calculator</h1>
+    </div>
+    <div class="header-right">
+      <button id="themeToggle">🌙 Dark Mode</button>
+      <button id="languageToggle">🌐 বাংলা</button>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+
+      <div class="calculator">
+        <form id="bpForm">
+          <label for="systolic">Systolic Pressure (mmHg):</label>
+          <input type="number" id="systolic" required min="1" placeholder="Enter systolic pressure">
+
+          <label for="diastolic">Diastolic Pressure (mmHg):</label>
+          <input type="number" id="diastolic" required min="1" placeholder="Enter diastolic pressure">
+
+          <button type="submit">Calculate BP</button>
+        </form>
+      </div>
+
+      <div class="result">
+        <h2>Your BP Result</h2>
+        <div class="result-content">
+          <p>Your BP: <span id="bpValue">-</span></p>
+          <p>BP Category: <span id="bpCategory">-</span></p>
+          <div id="healthTips">
+            <h3>Health Tips</h3>
+            <p id="tips">Enter your details to get health tips.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="BP.js"></script>
+</body>
+</html>
