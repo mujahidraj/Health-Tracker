@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waist-to-Hip Ratio (WHR) Calculator</title>
+  <link rel="stylesheet" href="WHR.css">
+</head>
+<body class="light-mode">
+
+  <header>
+    <div class="header-left">
+      <h1>WHR Calculator</h1>
+    </div>
+    <div class="header-right">
+      <button id="themeToggle">🌙 Dark Mode</button>
+      <button id="languageToggle">🌐 বাংলা</button>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+     
+      <div class="calculator">
+        <form id="whrForm">
+          <label for="waist">Waist Circumference (CM):</label>
+          <input type="number" id="waist" required min="1" placeholder="Enter waist measurement">
+
+          <label for="hip">Hip Circumference (CM):</label>
+          <input type="number" id="hip" required min="1" placeholder="Enter hip measurement">
+
+          <label for="gender">Gender:</label>
+          <select id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+          <button type="submit">Calculate WHR</button>
+        </form>
+      </div>
+
+   
+      <div class="result">
+        <h2>Your WHR Result</h2>
+        <div class="result-content">
+          <p>Your WHR: <span id="whrValue">-</span></p>
+          <p>Health Risk: <span id="healthRisk">-</span></p>
+          <div id="healthTips">
+            <h3>Health Tips</h3>
+            <p id="tips">Enter your details to get health tips.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="WHR.js"></script>
+</body>
+</html>
